@@ -1,3 +1,5 @@
+# Please Note
+
 This is a **fun personal project** exploring AI-powered fitness recommendations.  
 It demonstrates a microservices architecture with both backend and frontend components.
 
