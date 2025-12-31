@@ -1,5 +1,5 @@
-# This is a **fun personal project** exploring AI-powered fitness recommendations.  
-# It demonstrates a microservices architecture with both backend and frontend components.
+This is a **fun personal project** exploring AI-powered fitness recommendations.  
+It demonstrates a microservices architecture with both backend and frontend components.
 
 # AI-Powered Fitness Tracker
 
