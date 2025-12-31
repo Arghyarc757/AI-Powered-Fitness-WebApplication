@@ -1,3 +1,6 @@
+# This is a **fun personal project** exploring AI-powered fitness recommendations.  
+# It demonstrates a microservices architecture with both backend and frontend components.
+
 # AI-Powered Fitness Tracker
 
 An ongoing microservices-based fitness tracking application that leverages AI to provide personalized workout recommendations and insights.
@@ -281,45 +284,31 @@ AIPoweredFitness/
 - Some services use Java 25 (experimental), Gateway uses Java 21
 - Keycloak and RabbitMQ are run via Docker
 - Database credentials are in config files (change for production)
-- Gemini API key is exposed in `geminiapi.env` (use environment variables in production)
-
-## 🔍 What Needs Clarification
-
-1. **Docker Compose**: No `docker-compose.yml` file found. Are Keycloak and RabbitMQ started manually or is there a compose file elsewhere?
-
-2. **Keycloak Configuration**: 
-   - Exact realm configuration details
-   - Client configuration specifics
-   - User roles and permissions setup
-
-3. **Database Setup**:
-   - Are databases created automatically or manually?
-   - Any initialization scripts?
-
-4. **Environment Variables**:
-   - How are environment variables managed across services?
-   - Production configuration strategy?
-
-5. **Service Ports**: All services use fixed ports - any load balancing or scaling strategy?
-
-6. **Error Handling**: Error handling and logging strategy across services
-
-7. **Testing**: Test coverage and testing strategy
-
-8. **Deployment**: Deployment strategy and CI/CD pipeline (if any)
 
 ## 🐛 Known Issues / TODO
 
-- Frontend `ActivityDetail.jsx` has a bug: uses `activity.improvements` instead of `improvement` in map function (line 52)
-- Missing error boundaries in frontend
-- No health check endpoints documented
-- API Gateway security config has commented actuator endpoint
+- FRONEND is not completed
 
-## 📝 License
+## **LICENSE (MIT)**
+```text
+MIT License
 
-[Add your license here]
+Copyright (c) 2025 Arghya Roy Chaudhury
 
-## 👥 Contributors
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-[Add contributors here]
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
